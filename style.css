@@ -1,22 +1,38 @@
 * {
     /* font-family: 'Roboto', sans-serif; */
     box-sizing: border-box;
-    border: 1px red;
+    
 }
 
 body {
-    margin: 0;
-    
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+     
 }
 
 header {
     font-family: 'Shrikhand', serif;
     text-align: center;
     box-shadow: 0 0 0.5rem rgb(0 0 0 /25%);
-    padding: 0,3rem;   
-    
+    padding: 0,3rem;
+    position: relative;
+       
 }
 
-.title {
-    margin: inherit;
+.title h1 {
+    margin: 0px;
+}
+
+main .ville {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: #f3f3f3;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+main .ville i {
+    font-weight: 900;
 }
