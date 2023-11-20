@@ -1,0 +1,22 @@
+* {
+    /* font-family: 'Roboto', sans-serif; */
+    box-sizing: border-box;
+    border: 1px red;
+}
+
+body {
+    margin: 0;
+    
+}
+
+header {
+    font-family: 'Shrikhand', serif;
+    text-align: center;
+    box-shadow: 0 0 0.5rem rgb(0 0 0 /25%);
+    padding: 0,3rem;   
+    
+}
+
+.title {
+    margin: inherit;
+}
