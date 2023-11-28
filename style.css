@@ -1,12 +1,14 @@
 * {
     /* font-family: 'Roboto', sans-serif; */
     box-sizing: border-box;
+        
     
 }
 
 body {
     margin: 0px;
     font-family: 'Roboto', sans-serif;
+    
      
 }
 
@@ -19,11 +21,11 @@ header {
        
 }
 
-.title h1 {
+.title__header h1 {
     margin: 0px;
 }
 
-main .ville {
+main .city__location {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,8 +33,42 @@ main .ville {
     background-color: #f3f3f3;
     text-align: center;
     padding: 0.5rem;
+  
 }
 
-main .ville i {
-    font-weight: 900;
+main .city__location i {
+    font-size: 1.5rem;
+}
+
+/* Explorer */
+.explorer__main {
+    text-align: center;
+    /* add index0 */
+    padding: 50px;
+}
+
+.explorer__main h2 {
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+.explorer__main p {
+    font-size: 1rem;
+}
+
+.explorer__main .btn__gradient {
+    background-image: linear-gradient(to top, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+    color: white;
+    font-weight: 300;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 2px 1px 8px -3px #000;
+    transition: all 200ms;
+    margin-top: 1rem;
+}
+
+.explorer__main .btn__gradient:hover {
+    transform: scale(1.02);
 }
