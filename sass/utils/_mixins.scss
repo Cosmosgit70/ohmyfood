@@ -1,0 +1,8 @@
+//Box Shadow --> @include box-shadow(0px 0px 5px blue);
+@mixin base-shadow {
+    box-shadow: 2px 1px 8px -3px #000;
+}
+//Zoom --> transform @include zoom ;
+@mixin zoom {
+    transform: scale(1.02);
+}

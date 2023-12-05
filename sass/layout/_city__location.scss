@@ -1,0 +1,14 @@
+.city__location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    
+    background-color: #e5e5e5;
+    text-align: center;
+    padding: 0.5rem;
+    & i {
+        font-size: 1.5rem;
+    }
+    
+}

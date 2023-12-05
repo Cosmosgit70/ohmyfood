@@ -1,0 +1,48 @@
+// @import "../utils/mixins";
+
+
+.fonctionnement__main {
+    padding: 0 1rem;
+}
+
+.fonctionnement__main {
+    & ol {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;     
+        @media (min-width: 800px) {
+            flex-direction: row;
+        }
+    }
+    & li {
+        background-color: #f6f6f6;
+        padding: 1rem 2rem;
+        flex-grow: 1;
+        border-radius: 1rem;
+        position: relative;
+        @include base-shadow;
+        &:hover {
+            @include zoom;
+        }
+        & i.fas {
+            margin-right: 1rem; 
+
+        }
+    }
+    & span {
+        position: absolute;
+        top: 17px;
+        left: -12px;
+        color: #FFFFFF;
+        background: #9256DC;
+        border-radius: 50%;
+        height: 24px;
+        width: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 500;
+        font-size: 14px;
+    } 
+    
+}
