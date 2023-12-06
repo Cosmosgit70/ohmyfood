@@ -71,9 +71,8 @@ header {
 }
 
 .fonctionnement__main {
-  padding: 0 1rem;
+  padding: 15px 1rem;
 }
-
 .fonctionnement__main ol {
   display: flex;
   flex-direction: column;
@@ -97,6 +96,7 @@ header {
 }
 .fonctionnement__main li i.fas {
   margin-right: 1rem;
+  color: #9256DC;
 }
 .fonctionnement__main span {
   position: absolute;
@@ -112,6 +112,83 @@ header {
   align-items: center;
   font-weight: 500;
   font-size: 14px;
+}
+
+.restaurant {
+  background-color: #f6f6f6;
+  padding-bottom: 30px;
+}
+
+.main__restaurant {
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 30px;
+}
+.main__restaurant .card {
+  position: relative;
+  background-color: white;
+}
+.main__restaurant .card .btn__card {
+  color: #008766;
+  background: #99E2D0;
+  border: 5px solid #99E2D0;
+  border-radius: 5px;
+  position: absolute;
+  right: 1%;
+  top: 5%;
+}
+.main__restaurant .card .heart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main__restaurant .card .text__card {
+  padding: 0 20px;
+}
+.main__restaurant .card .text__card p {
+  margin-top: -16px;
+}
+.main__restaurant a img {
+  object-fit: cover;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  width: 100%;
+  height: 100%;
+  max-height: 220px;
+}
+
+footer {
+  background-color: #353535;
+  padding: 25px;
+  color: white;
+}
+
+h3 {
+  font-family: "Shrikhand", "sans-serif";
+  padding: 0px 0 5px 0;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: -34px;
+}
+ul li {
+  padding: 5px 0 5px 0;
+}
+ul li a {
+  color: white;
+}
+
+.fa-utensils {
+  margin-right: 12px;
+}
+
+.fa-hands-helping {
+  margin-right: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */

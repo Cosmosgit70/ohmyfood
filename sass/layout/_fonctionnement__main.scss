@@ -1,11 +1,12 @@
 // @import "../utils/mixins";
 
 
-.fonctionnement__main {
-    padding: 0 1rem;
-}
+// .fonctionnement__main {
+//     padding: 0 1rem;
+// }
 
 .fonctionnement__main {
+    padding: 15px 1rem;
     & ol {
         display: flex;
         flex-direction: column;
@@ -26,6 +27,7 @@
         }
         & i.fas {
             margin-right: 1rem; 
+            color: #9256DC;
 
         }
     }
