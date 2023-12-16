@@ -21,7 +21,7 @@
         flex-grow: 1;
         border-radius: 1rem;
         position: relative;
-        @include base-shadow;
+        @include shadow;
         &:hover {
             @include zoom;
         }

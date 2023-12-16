@@ -1,6 +1,5 @@
-
-// @import "../utils/box-shadow";
 @import "../utils/mixins";
+
 
 .explore__main {
     text-align: center;
@@ -15,17 +14,16 @@
         font-size: 1rem;
     }
     & .btn__gradient {
-        background-image: linear-gradient(to top, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+        @include gradient;
         color: white;
         font-weight: 300;
         font-size: 1.5rem;
         padding: 1rem 2rem;
         border: none;
         border-radius: 2rem;
-        // box-shadow: 2px 1px 8px -3px #000;
         transition: all 200ms;
         margin-top: 1rem;
-        @include base-shadow;
+        @include shadow;
     }
         & .btn__gradient:hover {
         @include zoom;
