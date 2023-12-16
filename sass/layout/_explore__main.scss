@@ -4,25 +4,30 @@
 .explore__main {
     text-align: center;
     /* add index0 */
-    padding: 50px;
+    padding: 40px;
     background: #f6f6f6;
     & h2 {
-        margin-top: 2rem;
-        font-size: 2rem;
+        // margin-top: 2rem;
+        font-size: 0,5rem;
+        margin-bottom: 18px;
+        
+       
     }
     & p {
         font-size: 1rem;
+        font-weight: lighter
     }
     & .btn__gradient {
         @include gradient;
         color: white;
-        font-weight: 300;
-        font-size: 1.5rem;
-        padding: 1rem 2rem;
+        // font-weight: 100;
+        font-weight: bold;
+        font-size: 0.8rem;
+        padding: 1rem 1.2rem;
         border: none;
         border-radius: 2rem;
         transition: all 200ms;
-        margin-top: 1rem;
+        margin-top: 2rem;
         @include shadow;
     }
         & .btn__gradient:hover {

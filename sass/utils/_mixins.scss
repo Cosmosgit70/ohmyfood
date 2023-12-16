@@ -21,7 +21,7 @@
 //boutton par defaut gradient purple   --> @include btn-about
 @mixin btn-about {
     @include gradient;
-    border: 1px solid transparent;
+    // border: 1px solid transparent;
     border-radius: 30px;
     padding: 10px 5px;
     color: #fff;

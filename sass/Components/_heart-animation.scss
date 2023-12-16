@@ -2,7 +2,9 @@
 .fill {
     color: black;
     cursor: pointer;
-    &:hover {
+    font-size: 1.3em;
+    
+      &:hover {
       animation: fill 0.3s ease-in-out;
       display: inline-block;
       opacity: 1;

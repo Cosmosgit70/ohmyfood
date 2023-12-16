@@ -6,15 +6,19 @@
 // }
 
 .fonctionnement__main {
-    padding: 15px 1rem;
+    padding: 40px 10px 30px 15px;
+
+   
     & ol {
         display: flex;
         flex-direction: column;
-        gap: 1rem;     
+        gap: 1.3rem; 
+        padding: 25px 5px;    
         @media (min-width: 800px) {
             flex-direction: row;
         }
     }
+   
     & li {
         background-color: #f6f6f6;
         padding: 1rem 2rem;
@@ -26,7 +30,7 @@
             @include zoom;
         }
         & i.fas {
-            margin-right: 1rem; 
+            margin-right: 2rem; 
             color: #9256DC;
 
         }
