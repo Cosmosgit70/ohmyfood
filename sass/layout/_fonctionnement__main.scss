@@ -16,6 +16,13 @@
         padding: 25px 5px;    
         @media (min-width: 800px) {
             flex-direction: row;
+            // add index01
+            display: wrap;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 25px 200px;
+           
         }
     }
    
@@ -52,3 +59,24 @@
     } 
     
 }
+
+@media screen and (min-width: 800px) {
+    .fonctionnement__main h2 {
+        padding-left: 200px;
+}
+}
+// @media screen and (min-width: 1440px) {
+//     .fonctionnement__main h2 {
+//           text-align: center;
+//     }
+//   }
+
+// @media screen and (min-width: 768px) {
+//     .fonctionnement__main {
+//       flex-wrap: wrap;
+//       display: flex;
+//       flex-direction: row;
+//       justify-content: center;
+//       align-items: center;
+//     }
+//   }
