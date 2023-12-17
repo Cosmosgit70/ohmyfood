@@ -77,10 +77,12 @@ header {
   border-radius: 2rem;
   transition: all 200ms;
   margin-top: 2rem;
+  cursor: pointer;
   box-shadow: 2px 1px 8px -3px #000;
 }
 .explore__main .btn__gradient:hover {
   transform: scale(1.02);
+  background-image: linear-gradient(to top, rgba(153, 106, 214, 0.9), rgb(240, 7, 174));
 }
 
 .fonctionnement__main {
@@ -112,6 +114,8 @@ header {
 }
 .fonctionnement__main li:hover {
   transform: scale(1.02);
+  box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.4784313725);
+  cursor: pointer;
 }
 .fonctionnement__main li i.fas {
   margin-right: 2rem;

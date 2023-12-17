@@ -5,6 +5,12 @@
 //Zoom --> transform @include zoom ;
 @mixin zoom {
     transform: scale(1.02);
+    box-shadow: 2px 2px 3px 0px #0000007a;
+    cursor: pointer;
+}
+@mixin zoom0 {
+    transform: scale(1.02);
+    background-image: linear-gradient(to top, rgba(153, 106, 214, 0.9), rgb(240, 7, 174));
 }
 //gradient --> @include for -expolore__main ;
 @mixin gradient {
