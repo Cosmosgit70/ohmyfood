@@ -1,30 +1,108 @@
-footer {
-    background-color: #353535;
-    padding: 25px;
-    color: white;
-  }
-    h3 {
-      font-family: "Shrikhand", "sans-serif";
-      padding: 0px 0 10px 0;
-      font-size: 1.2rem;
-      font-weight: 500;
-    }
-    ul {
-      list-style-type: none;
+// <!-- first done but no adaptable for 1024  old projet
+
+// footer {
+//     background-color: #353535;
+//     padding: 25px;
+//     color: white;
+//   }
+// h3 {
+//     font-family: "Shrikhand", "sans-serif";
+//     padding: 0px 0 10px 0;
+//     font-size: 1.2rem;
+//     font-weight: 500;
+// }
+// ul {
+//     list-style-type: none;
       
   
-      li {
-        padding: 5px 0 5px 0 ;
+//   li {
+//         padding: 5px 0 5px 0 ;
   
-        a {
+//       a {
+//           color: white;
+//       }
+//   }
+// }
+  
+// .fa-utensils {
+//     margin-right: 12px;
+// }
+// .fa-hands-helping {
+//     margin-right: 5px;
+// }
+
+
+// <!-- from Seb with grid cause idem my projet recent  -->
+
+.footer {
+  background: black;
+  color: white;
+  @include flex-center;
+  // font-family: $Font_text;
+
+  a {
+      color: white;
+  }
+
+  &__container {
+      padding: 25px 0;
+      display: grid;
+      gap: 7px;
+      width: 90vw;
+      max-width: 490px;
+
+      @media only screen and (min-width: 1024px) {
+          display: flex;
+          justify-content: end;
+          align-items: last baseline;
+          width: 100%;
+          max-width: none;
+          padding: 30px 50px;
+          height: 114px;
+          gap: 30px;
+      }
+
+      i {
           color: white;
-        }
+          width: 25px;
       }
-    }
-  
-      .fa-utensils {
-        margin-right: 12px;
+
+      h2 {
+          color: white;
+          font-family:'Shrikhand', serif;
+          font-size: 18px;
+          font-weight: 400;
+          letter-spacing: 0.5px;
+          margin-bottom: 10px;
+
+          @media only screen and (min-width: 1024px) {
+              order: 3;
+              margin: 0;
+              margin-left: 30px;
+          }
       }
-      .fa-hands-helping {
-        margin-right: 5px;
+
+      .footer__prop-partner {
+          display: grid;
+          gap: 7px;
+
+          @media only screen and (min-width: 1024px) {
+              display: flex;
+              order: 1;
+              gap: 10px;
+          }
       }
+
+      .footer__Not-Contact {
+          display: grid;
+          gap: 7px;
+
+          @media only screen and (min-width: 1024px) {
+              display: flex;
+              order: 2;
+              gap: 10px;
+          }
+      }
+  }
+
+}
